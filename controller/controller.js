@@ -68,6 +68,7 @@ let obj={
   "indigo":Math.floor(distance*15),
   "airAsia":Math.floor(distance*25),
   "vistara":Math.floor(distance*35)
+  
 }
 return res.status(201).send({ status: true, message: 'all flights', data: obj })
 }catch{
